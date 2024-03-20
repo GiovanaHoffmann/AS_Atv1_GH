@@ -1,7 +1,13 @@
-module.exports.Aluno = class Aluno {
+class Aluno {
+    nome;
+    login;
+    ra;
+        
     constructor(nome, login, ra) {
     this.nome = nome;
     this.login = login;
     this.ra = ra;
     }
-    }
+}        
+
+module.exports  = Aluno; 
